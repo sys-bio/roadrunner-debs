@@ -1,0 +1,87 @@
+Package: libroadrunner
+Version: 1.4.15
+Architecture: amd64
+Maintainer: Kyle Medley <0u812github@gmail.com>
+Installed-Size: 76591
+Depends: libbz2-1.0, libc6 (>= 2.15), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.8), libtinfo5, libxml2 (>= 2.7.4), zlib1g (>= 1:1.2.0), libroadrunner-deps (>= 2.0.2)
+Filename: ./libroadrunner_1.4.15_amd64.deb
+Size: 18820858
+MD5sum: eac27481f5cdbbf2438ee955d0efb58f
+SHA1: 6233f84227d7081bfa9724a22a9c857e32c3729b
+SHA256: f8e9e858a7169e183983f5a1d63a02a68937bdbf4ee6a04148365f9630196fb6
+Section: libs
+Priority: optional
+Homepage: http://libroadrunner.org/
+Description: Simulation library for SBML
+ libRoadRunner is a ODE/stochastic simulation and
+ modeling environment for SBML
+
+Package: libroadrunner-deps
+Version: 2.0.4
+Architecture: amd64
+Maintainer: Kyle Medley <0u812github@gmail.com>
+Installed-Size: 9768
+Depends: libbz2-1.0, libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.6), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
+Filename: ./libroadrunner-deps_2.0.4_amd64.deb
+Size: 1758690
+MD5sum: 7e6fef91b0c466933058a406af905581
+SHA1: 554565dfdd46730f48ee3c334d9ab7ed4f6af565
+SHA256: b7604973a44b5a067e0fb8ee4dd90654bf79f72a4da622155265e2b0316cd749
+Section: libs
+Priority: optional
+Homepage: http://libroadrunner.org/
+Description: Dependencies for libroadrunner
+
+Package: libroadrunner-deps-dev
+Source: libroadrunner-deps
+Version: 2.0.4
+Architecture: amd64
+Maintainer: Kyle Medley <0u812github@gmail.com>
+Installed-Size: 88294
+Depends: libroadrunner-deps (= 2.0.4)
+Filename: ./libroadrunner-deps-dev_2.0.4_amd64.deb
+Size: 6809508
+MD5sum: 3d41d2dc4ca4c868222f5cde5b48460e
+SHA1: 72133c433b0a22bde02192ea606d40bcc16b1784
+SHA256: f908e88efa27b75b1324d147d85e2a802b002242c42cd18460c049618eb8a5ed
+Section: libdevel
+Priority: optional
+Homepage: http://libroadrunner.org/
+Description: Dependencies for libroadrunner
+
+Package: libroadrunner-dev
+Source: libroadrunner
+Version: 1.4.15
+Architecture: amd64
+Maintainer: Kyle Medley <0u812github@gmail.com>
+Installed-Size: 41614
+Depends: libroadrunner (= 1.4.15)
+Filename: ./libroadrunner-dev_1.4.15_amd64.deb
+Size: 7490950
+MD5sum: a32b1b14b8be3b2bf143a39ce8ed1b17
+SHA1: d7464a21af79bba963aaf6d5f655b30192581803
+SHA256: 8b135b646d4eee6dca8f95aa71190c5ef8c025c145ccae30a54af2f93364cc6a
+Section: libdevel
+Priority: optional
+Homepage: http://libroadrunner.org/
+Description: Simulation library for SBML
+ libRoadRunner is a ODE/stochastic simulation and
+ modeling environment for SBML
+
+Package: libroadrunner-python
+Source: libroadrunner
+Version: 1.4.15
+Architecture: amd64
+Maintainer: Kyle Medley <0u812github@gmail.com>
+Installed-Size: 54531
+Depends: libroadrunner (= 1.4.15), python-numpy
+Filename: ./libroadrunner-python_1.4.15_amd64.deb
+Size: 12694418
+MD5sum: f8b1580fd306dfc448d285879feab1c9
+SHA1: d2bb05085ae5f39cd77aafd890cfc6ffe5c31e57
+SHA256: 396812830d8be900d9f688becdea27fbb7509268a9b06de2c10e68e874e498b4
+Section: libdevel
+Priority: optional
+Homepage: http://libroadrunner.org/
+Description: Python bindings for libroadrunner
+
