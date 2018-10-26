@@ -17,16 +17,16 @@ Description: Simulation library for SBML
  modeling environment for SBML
 
 Package: libroadrunner-deps
-Version: 2.0.4
+Version: 2.0.8
 Architecture: amd64
 Maintainer: Kyle Medley <0u812github@gmail.com>
-Installed-Size: 9768
+Installed-Size: 13261
 Depends: libbz2-1.0, libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.6), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
-Filename: ./libroadrunner-deps_2.0.4_amd64.deb
-Size: 1758690
-MD5sum: 7e6fef91b0c466933058a406af905581
-SHA1: 554565dfdd46730f48ee3c334d9ab7ed4f6af565
-SHA256: b7604973a44b5a067e0fb8ee4dd90654bf79f72a4da622155265e2b0316cd749
+Filename: ./libroadrunner-deps_2.0.8_amd64.deb
+Size: 2213924
+MD5sum: 4a9580b93c63e7e2b70b58a8dc4634bc
+SHA1: 52bb9b01743394e9e0cc208db9686e756763c4c0
+SHA256: bd783229df5004ab4bc159bf8bf1970a1e0bfea67f2526f94d5da54afd437b1c
 Section: libs
 Priority: optional
 Homepage: http://libroadrunner.org/
@@ -34,16 +34,16 @@ Description: Dependencies for libroadrunner
 
 Package: libroadrunner-deps-dev
 Source: libroadrunner-deps
-Version: 2.0.4
+Version: 2.0.8
 Architecture: amd64
 Maintainer: Kyle Medley <0u812github@gmail.com>
-Installed-Size: 88294
-Depends: libroadrunner-deps (= 2.0.4)
-Filename: ./libroadrunner-deps-dev_2.0.4_amd64.deb
-Size: 6809508
-MD5sum: 3d41d2dc4ca4c868222f5cde5b48460e
-SHA1: 72133c433b0a22bde02192ea606d40bcc16b1784
-SHA256: f908e88efa27b75b1324d147d85e2a802b002242c42cd18460c049618eb8a5ed
+Installed-Size: 101940
+Depends: libroadrunner-deps (= 2.0.8)
+Filename: ./libroadrunner-deps-dev_2.0.8_amd64.deb
+Size: 7429268
+MD5sum: 8573d707365f67f10c745e69ebf65654
+SHA1: c6a171e551b00aa3ddb4bee06d56e1ecbe08b39a
+SHA256: 531a6a967c58a4d645dfdf95b1f8b1b5dee07c2aded36d3d4c7893315c296ef4
 Section: libdevel
 Priority: optional
 Homepage: http://libroadrunner.org/
